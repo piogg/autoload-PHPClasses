@@ -1,0 +1,22 @@
+{
+    "name": "vitorpiosilva/autoload-PHPClasses",
+    "minimum-stability": "dev",
+    "type": "library",
+    "description": "Autoload de Classes PHP",
+    "homepage": "https://github.com/vitorpiosilva/autoload-PHPClasses",
+    "authors": [
+        {
+            "name": "Vitor Pio Silva",
+            "email": "vitorpiosilva@protonmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src"
+        }
+    }
+}
